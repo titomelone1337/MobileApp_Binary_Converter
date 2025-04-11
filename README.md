@@ -1,18 +1,19 @@
 # Binary Converter App
 
-A simple Flutter application that converts decimal numbers to binary format. The app follows the **Model-View-Controller (MVC)** pattern and includes input validation logic to ensure users enter valid decimal numbers for conversion.
+A simple Flutter application that asks the user which base they want to input (binary, decimal, etc.) and which base they want to see the result in (binary, decimal, hexadecimal, etc.). The app follows the **Model-View-Controller (MVC)** pattern and includes input validation logic to ensure users enter valid format inputs.
 
 ## Features
 
-- Converts a decimal number to its binary equivalent.
+- Converts numbers between different bases (e.g., binary, decimal, hexadecimal).
+- Supports user-defined input and output base (such as converting from decimal to binary or hexadecimal).
 - Follows the **MVC (Model-View-Controller)** architectural pattern for a clean and maintainable codebase.
-- Input validation to ensure only valid decimal numbers are entered.
+- Input validation to ensure only valid numbers in the correct base are entered.
 
 ## Structure
 
 The app is divided into three main components, following the MVC pattern:
 
-- **Model**: Contains the logic for converting the decimal number to binary.
+- **Model**: Contains the logic for converting between different number bases.
 - **View**: Displays the user interface and communicates with the Controller.
 - **Controller**: Manages user interactions, invokes the Model for conversion, and updates the View accordingly.
 
@@ -33,3 +34,5 @@ Follow the steps below to clone and run the app locally:
 ```bash
 git clone https://github.com/your-username/binary-converter-app.git
 cd binary-converter-app
+flutter pub get
+flutter run
