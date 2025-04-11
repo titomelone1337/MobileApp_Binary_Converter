@@ -4,8 +4,8 @@ A simple Flutter application that asks the user which base they want to input (b
 
 ## Development Team
 
-Tiago Melo
-Afonso Silva
+Tiago Melo,
+Afonso Silva,
 André Rosário
 
 ## Features
