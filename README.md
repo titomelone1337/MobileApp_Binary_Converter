@@ -2,6 +2,12 @@
 
 A simple Flutter application that asks the user which base they want to input (binary, decimal, etc.) and which base they want to see the result in (binary, decimal, hexadecimal, etc.). The app follows the **Model-View-Controller (MVC)** pattern and includes input validation logic to ensure users enter valid format inputs.
 
+## Development Team
+
+Tiago Melo
+Afonso Silva
+André Rosário
+
 ## Features
 
 - Converts numbers between different bases (e.g., binary, decimal, hexadecimal).
@@ -36,3 +42,5 @@ git clone https://github.com/your-username/binary-converter-app.git
 cd binary-converter-app
 flutter pub get
 flutter run
+
+
