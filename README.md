@@ -17,7 +17,7 @@ The app is divided into three main components, following the MVC pattern:
 - **View**: Displays the user interface and communicates with the Controller.
 - **Controller**: Manages user interactions, invokes the Model for conversion, and updates the View accordingly.
 
-## Prerequisites
+## Pre-requisites
 
 To run this project, ensure you have the following installed:
 
