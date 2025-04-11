@@ -1,16 +1,35 @@
-# tp02
+# Binary Converter App
 
-A new Flutter project.
+A simple Flutter application that converts decimal numbers to binary format. The app follows the **Model-View-Controller (MVC)** pattern and includes input validation logic to ensure users enter valid decimal numbers for conversion.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Converts a decimal number to its binary equivalent.
+- Follows the **MVC (Model-View-Controller)** architectural pattern for a clean and maintainable codebase.
+- Input validation to ensure only valid decimal numbers are entered.
 
-A few resources to get you started if this is your first Flutter project:
+## Structure
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The app is divided into three main components, following the MVC pattern:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Model**: Contains the logic for converting the decimal number to binary.
+- **View**: Displays the user interface and communicates with the Controller.
+- **Controller**: Manages user interactions, invokes the Model for conversion, and updates the View accordingly.
+
+## Prerequisites
+
+To run this project, ensure you have the following installed:
+
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- [Dart](https://dart.dev/get-dart)
+- A code editor like [VS Code](https://code.visualstudio.com/) or [Android Studio](https://developer.android.com/studio)
+
+## How to Clone and Run the Project
+
+Follow the steps below to clone and run the app locally:
+
+### Step 1: Clone the repository
+
+```bash
+git clone https://github.com/your-username/binary-converter-app.git
+cd binary-converter-app
