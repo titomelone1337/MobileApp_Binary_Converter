@@ -1,7 +1,7 @@
 // resultPage.dart
 import 'package:flutter/material.dart';
 import 'binary_converter.dart'; 
-import 'package:confetti/confetti.dart'; // Optional: for celebration
+import 'package:confetti/confetti.dart'; 
 
 class ResultPage extends StatefulWidget {
   final String input;
